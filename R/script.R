@@ -1,4 +1,4 @@
-var_df <- read.csv([file = 'data/postalzones.csv', header = FALSE])
+var_df <- read.csv(file = "postalzones.csv", header = F)
 # or read table with correct specs
 for (i in 1:dim(var_df)[1]) { # vectorise for speed; doing it with loops to 
 # make this clearer
