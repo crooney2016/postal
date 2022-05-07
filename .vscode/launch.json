@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "type": "R-Debugger",
+            "name": "Debug R-Package",
+            "request": "launch",
+            "debugMode": "workspace",
+            "workingDirectory": "",
+            "includePackageScopes": true,
+            "loadPackages": [
+                "."
+            ]
+        },
+        {
+            "type": "R-Debugger",
+            "name": "Debug R-Function",
+            "request": "launch",
+            "debugMode": "function",
+            "workingDirectory": "",
+            "file": "",
+            "mainFunction": "main",
+            "allowGlobalDebugging": false
+        },
+    {
+        "type": "R-Debugger",
+        "name": "Debug R-File",
+        "request": "launch",
+        "debugMode": "file",
+        "workingDirectory": "",
+        "file": ""
+    }
+    ]
+}
